@@ -15,4 +15,9 @@ router.get("/info/:c/:texto", (req, res)=>{
     res.render("info",{c, texto})
 })
 
+//ruta de contacto
+router.get("/contactanos", (req, res)=>{
+    res.render("contactanos")
+})
+
 export default router
